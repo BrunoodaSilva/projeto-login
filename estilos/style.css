@@ -33,13 +33,17 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    transition: width 0.2s, heigth 0.2s;
+    transition-timing-function: ease;
 }
 section >div#imagem{
+    display: block;
     background: #5f2c82 url(../imagens/pexels-alteredsnaps-15049667.jpg) ;
     background-size: cover;
     height: 200px;
 }
 section > div#formulario{
+    display: block;
     padding: 10px;
 
 }
